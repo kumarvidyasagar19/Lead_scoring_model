@@ -16,3 +16,22 @@ Steps should be:
 2. Training ( on Y percent of data)
 3. Testing ( on (100-Y) percent of data)
 4. Evaluate the performance using metrics such as accuracy, precision, recall and F1-score.
+
+
+# This dataset appears to contain information about agents and their interactions with potential clients interested in renting accommodations. 
+* Unnamed: 0: an index column
+* Agent_id: unique identifier for each agent
+* status: status of the interaction (LOST, WON, etc.)
+* lost_reason: reason for losing the potential client
+* budget: budget range of the potential client
+* lease: duration of the lease
+* movein: move-in date for the potential client
+* source: identifier for the source of the lead
+* source_city: city where the lead originated
+* source_country: country where the lead originated
+* utm_source: identifier for the source of the lead
+* utm_medium: identifier for the medium of the lead (e.g. youtube ads, banner, etc.)
+* des_city: city where the potential client is looking to rent
+* des_country: country where the potential client is looking to rent
+* room_type: type of room the potential client is looking for
+* lead_id: unique identifier for each lead
